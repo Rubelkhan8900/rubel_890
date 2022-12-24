@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ol,ul{
+    list-style: none;
+
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* =============== Menu Start============== */
+.row_Logo{
+    width: 30%;
+    float: left;
+}
+
+.text_menu{
+    width: 70%;
+    float: left;
+}
+
+.row_Logo .col_logo{
+    width: 130px;
+    line-height: 100px;
+
+}
+.text_menu .menu ul{
+ float: left;
+ margin: 0 auto;
+
+
+}
+.text_menu .menu ul li{
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.text_menu .menu ul li a{
+    line-height: 100px;
+    padding-right: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400; 
+    font-family: 'Oswald', sans-serif;
+    transition: all linear 0.3s;
+}
+.text_menu .menu ul li a:hover{
+    color: #e8631c;
+}
+.col_sarch{
+    width: 20%;
+    float: right;
+}
+.text_menu .icon_s{
+ float: right;
+ line-height: 100px;
+ color: #ffffff;
+ font-weight: 900;
+ font-size: 30px;
+ height: 30px;
+ cursor: pointer;
+ transition: all linear 0.3s;
+ 
+}
+.text_menu .icon_s:hover{
+    color: #e8631c;
+}
+#main_menu{
+    height: 100px;
+    background-color: #303030;
+}
+/* =============== Menu end============== */
+
+/* =============== benner start============== */
+#benner{
+    background: url(../img/benner3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 670px;
+}
+.img_text h1{
+    font-size: 125px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 180px;
+
+}
+.img_text p{
+    width: 610px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+
+}
+.Register {
+    width: 320px;
+    height: 65px;
+    background-color: #e8631c;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 1%;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.Register:hover{
+    background-color: #ffffff;
+}
+.Register h2{
+    font-size: 29px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    transition: all linear 0.3;
+
+}
+.Register h2:hover{
+    color: #e8631c;
+}
+/* =============== benner end============== */
+/* =============== dance start============== */
+#dance{
+    padding-bottom: 80px;
+    height: 960px;
+    background-color: #e8631c;
+    
+}
+.row_dance h2{
+    padding-top: 100px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#p_row{
+    padding-top: 80px;
+}
+.row_dance p{
+    width: 840px;
+
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.dance_img ul{
+   display: flex;
+}
+.dance_img ul li{
+    width: 360px;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+.dance_img ul li img{
+    width: 370px;
+    background-color: #303030;
+}
+
+.dance_back{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-right: 60px;
+    float: left;
+    margin-top: 0;
+    width: 353.4px;
+    height: 170px;
+    background-color: #303030;
+}
+.dance_back h3 {
+    padding-top: 20px;
+    font-size: 37px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dance_back p{
+    padding-top: 20px;
+    width: 320px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.dance_back:nth-child(5){
+    margin-right: 0px;
+}
+/* =============== dance end============== */
+/* =============== pricing start============== */
+#pricing{
+    padding-bottom: 80px;
+    height: 960px;
+    background-color: #2f2f2f;
+}
+.text_peicing h2{
+    padding-top: 100px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.text_peicing p{
+    padding-top: 20px;
+    width: 840px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.row_plan .col_basic{
+    width: 375px;
+    height: 495px;
+    background-color: #e8631c;
+    border-radius: 2%;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+.col_basic img{
+    width: 95px;
+    padding-left: 135px;
+    padding-top: 60px;
+
+    
+}
+.col_basic h3{
+    padding-top: 55px;
+    font-size: 37px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.col_basic p{
+   padding-top: 35px;
+    width: 315px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+.row_plan{
+    display: flex;
+}
+.col_basic .sub_bottom{
+    cursor: pointer;
+    width: 320px;
+    height: 65px;
+    background-color: #2f2f2f;
+    margin: 25px 25px;
+    border-radius: 4px;
+    transition: all linear 0.3s;
+}
+.col_basic .sub_bottom:hover{
+    background-color: rgb(255, 255, 255);
+}
+.sub_bottom h4{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    line-height: 65px;
+    text-align: center;
+
+}
+.sub_bottom h4:hover{
+    color: #e8631c;
+}
+/* =============== pricing end============== */
+/* =============== Amazing start============== */
+#Amazing{
+    margin: 0 auto;
+    height: 1920px;
+    width: 1440px;
+    padding-bottom: 0;
+}
+
+.ama_row{
+    display: flex;
+    height: 955px;
+
+}
+.ama_img img{
+    float: left;
+    height: 956px;
+    width: 720px;
+    float: left;
+}
+.ama_text{
+    background-color: #e8631c;
+    width: 720px;
+    float: left;
+}
+.ama_text h2{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    transition: al linear 0.3s;
+
+}
+.ama_bottom_2 h3:hover{
+    color: #e8631c;
+}
+.ama_bottom_2:hover{
+    background-color: #fff;
+}
+.ama_bottom{
+    cursor: pointer;
+    margin-left: 80px;
+    width: 320px;
+    height: 65px;
+    background-color: #2f2f2f;
+    transition: all linear 0.3s;
+}
+.ama_bottom:hover{
+    background-color: #fff;
+}
+
+.ama_text h2{
+    margin-top: 320px;
+    padding-left: 80px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.ama_text p{
+    margin-top: 55px;
+    width: 540px;
+    padding-left: 80px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.ama_bottom h3{
+    transition: al linear 0.3s;
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 65px;
+}
+.ama_bottom h3:hover{
+    color: #e8631c;
+}
+.ama_img_2 img{
+    width: 50%;
+    float: right;
+    height: 965px;
+}
+.ama_row_2 .ama_text_2{
+    width: 50%;
+    float: left;
+    height: 965px;
+    background-color: #e8631c;
+}
+
+.ama_text_2 h2{
+    margin-top: 320px;
+    padding-left: 80px;
+    width: 720px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.ama_text_2 p{
+    margin-top: 55px;
+    width: 540px;
+    padding-left: 80px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.ama_bottom_2{
+    transition: all linear 0.3s;
+    margin-left: 80px;
+    width: 320px;
+    height: 65px;
+    background-color: #2f2f2f;
+
+}
+.ama_bottom_2 h3{
+    transition: all linear 0.3s;
+    cursor: pointer;
+    margin-top: 70px;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 65px;
+}
+.ama_row_2{
+    height: 1920px ;
+}
+
+/* =============== Amazing end============== */
+/* =============== our end============== */
+#ous_ss{
+    margin-top: 0;
+    height: 975px;
+    background-color: #2f2f2f;
+}
+.row_cat{
+    display: flex;
+}
+.col_cat_a{
+    margin: 0 auto;
+    text-align: center;
+}
+.col_cat_a h3{
+    padding-right: -18px;
+    padding-top: 185px;
+    font-size: 67px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+.col_cat_a p{
+
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+/* =============== our end============== */
+/* =============== Simon start============== */
+#Simon{
+    background-image: url(../img/Herbert\ Simon.jpg);
+    height: 967px;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.overly{
+    background-color: rgba(53, 23, 6, 0.589);
+    height: 967px;
+    z-index: 1;
+}
+.text_ama h2{
+    font-size: 58px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.text_ama p{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 330px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+/* =============== Simon end============== */
+/* =============== sub start============== */
+#subscribe{
+    height: 800px;
+    background-color: #e8631c;
+}
+.sub_box{
+    margin-top: 55px;
+    margin: 0 auto;
+    margin-left: 240px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+    width: 550px;
+    height: 65px;
+    float: left;
+}
+.sub_buttom{
+    cursor: pointer;
+    border-radius: 2%;
+    width: 220px;
+    height: 68px;
+    background-color: #2f2f2f;
+    float: left;
+}
+.sub_buttom h3{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 68px;
+}
+.sub_text h2{
+    padding-top: 150px;
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.sub_text p{
+   padding-bottom: 120px;
+    padding-top: 20px;
+    width: 840px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+/* =============== sub end============== */
+/* =============== footer start============== */
+#footer{
+    height: 480px;
+    background-color: #2f2f2f;
+}
+.footer_row{
+    display: flex;
+}
+.col_music h4{
+    padding-top: 130px;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.col_music p{
+    width: 495px;
+    padding-top:40px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.col_music ul{
+    text-align: center;
+}
+.col_music ul li{
+    margin-top: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+}
+.col_music ul li a{
+    color: #2f2f2f;
+    padding-left: 10px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    padding-right: 15px;
+    transition: all linear 0.3s;
+}
+.col_music ul li a:hover{
+    color: #e8631c;
+}
+.col_About{
+    padding-left: 70px;
+}
+.col_About h4{
+    padding-top: 130px;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.col_About ul li a{
+    padding-top:20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.col_Services{
+    padding-left: 35px;
+}
+.col_Services h4{
+    padding-top: 130px;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.col_Services ul li a{
+    padding-top:20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.col_Other{
+    padding-left: 35px;
+}
+.col_Other h4{
+    padding-top: 130px;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.col_Other ul li a{
+    padding-top:20px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+/* =============== footer end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
+/* =============== benner end============== */
